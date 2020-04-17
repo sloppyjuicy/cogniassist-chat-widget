@@ -1,14 +1,14 @@
-.cogniwidechat .react-calendar {
+._cog_chat .react-calendar {
    width: 250px !important;
 }
 /* Attachment */
-.cogniwidechat .upload-btn-wrapper {
+._cog_chat .upload-btn-wrapper {
    position: relative;
    overflow: hidden;
    display: inline-block;
  }
  
- .cogniwidechat .upload_btn {
+ ._cog_chat .upload_btn {
   border: 1px solid #00bbff;
   color: #00bbff;;
   background-color: white;
@@ -21,33 +21,33 @@
   cursor: pointer !important;
  }
  
- .cogniwidechat .upload-btn-wrapper input[type=file] {
+ ._cog_chat .upload-btn-wrapper input[type=file] {
    font-size: 100px;
    position: absolute;
    left: 0;
    top: 0;
    opacity: 0;
  }
- .cogniwidechat .upload-icon{
+ ._cog_chat .upload-icon{
   width: 20px;
   margin-right: 10px;
   vertical-align: bottom;
  }
 
- .cogniwidechat .right span.timeStamp {
+ ._cog_chat .right span.timeStamp {
   position: absolute;
   right: 0;
 }
-.cogniwidechat li.star:before {
+._cog_chat li.star:before {
   content: '★ ';
   font-size: 30px;
   color: #d3d3d3;
 }
-.cogniwidechat li.star.hover:before, .cogniwidechat li.star.selected:before  {
+._cog_chat li.star.hover:before, ._cog_chat li.star.selected:before  {
   color: #ffc107;
 }
 
-.cogniwidechat .session-border {
+._cog_chat .session-border {
   margin-top:20px !important;
   width: 100%; 
   text-align: center; 
@@ -56,13 +56,13 @@
   margin: 10px 0 20px; 
 } 
 
-.cogniwidechat .session-border span { 
+._cog_chat .session-border span { 
    background:#fff; 
    color:#b9b6b6;
    padding:0 10px; 
 }
 
-.cogniwidechat .scrolling-wrapper-flexbox {
+._cog_chat .scrolling-wrapper-flexbox {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
@@ -72,7 +72,7 @@
   }
 }
 
-.cogniwidechat .card {
+._cog_chat .card {
   padding: 10px 20px;
   margin: 10px;
   border-radius: 5px;
@@ -89,11 +89,16 @@
   }
 }
 
-.cogniwidechat .scrolling-wrapper, .scrolling-wrapper-flexbox {
+._cog_chat .scrolling-wrapper, .scrolling-wrapper-flexbox {
 
   width: 100%;
   -webkit-overflow-scrolling: touch;
   &::-webkit-scrollbar {
     display: none;
   }
+}
+
+._cog_chat .txn-card{
+  border: 1px dashed;
+  padding: 5px 10px;
 }
